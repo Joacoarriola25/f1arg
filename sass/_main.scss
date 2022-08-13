@@ -14,6 +14,11 @@ hr {
     flex-direction:column;
     align-items: center;
     justify-content: flex-end;
+
+    h2
+    p{
+        margin-bottom: 10px;
+    }
 }
 
 .btn {
@@ -27,16 +32,12 @@ hr {
     font-size: 15px;
     border: 1px solid #ffffff;
     margin: 10px 0;
+
+    &:hover {
+        opacity: .7;
+    }
 }
 
-.btn:hover{
-    opacity: .7;
-}
-
-.showcase h2
-.showcase p {
-    margin-bottom: 10px;
-}
 
 
 /* NEWS CARDS*/

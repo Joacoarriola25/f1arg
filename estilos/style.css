@@ -37,6 +37,9 @@ hr {
   align-items: center;
   justify-content: flex-end;
 }
+.showcase h2 p {
+  margin-bottom: 10px;
+}
 
 .btn {
   cursor: pointer;
@@ -50,13 +53,8 @@ hr {
   border: 1px solid #ffffff;
   margin: 10px 0;
 }
-
 .btn:hover {
   opacity: 0.7;
-}
-
-.showcase h2 .showcase p {
-  margin-bottom: 10px;
 }
 
 /* NEWS CARDS*/
