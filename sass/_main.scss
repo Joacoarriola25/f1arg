@@ -74,8 +74,8 @@ hr {
 
 /* CARDS BANNER ONE */
 .cards-banner-one{
-    width: 100%;
-    height: 350px;
+    width: $bannerw;
+    height: $bannerh;
     background: url('../img/banner2.jpg') no-repeat center center/cover;
     
     margin-bottom: 40px;
@@ -91,3 +91,21 @@ hr {
 .cards-banner-one h2{
     margin: 10px 0 20px 0;
 }
+
+/* CARDS BANNER TWO */
+.cards-banner-two{
+    @extend .cards-banner-one;
+    background: url('../img/banner.jpg') no-repeat center center/cover;
+}
+
+.cards-banner-two .content{
+    width: 40%;
+    padding: 90px 0 30px;
+    color: #ffffff;
+}
+
+.cards-banner-two p,
+.cards-banner-two h2{
+    margin: 10px 0 20px 0;
+}
+
