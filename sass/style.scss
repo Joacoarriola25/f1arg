@@ -115,3 +115,9 @@ h2 {
 
     
 }
+
+@mixin sizes($width, $heigth){
+    height: $heigth;
+    width: $width;
+}
+
