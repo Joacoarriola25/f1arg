@@ -3,11 +3,14 @@ hr {
     margin: 10px 0;
 }
 
+.titlesc {
+    font-size: xx-large;
+}
 
 .showcase {
     width: 100%;
     height: 550px;
-    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    background: url(../img/showcase2.jpg) no-repeat center center/cover;
     padding: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -15,7 +18,6 @@ hr {
     align-items: center;
     justify-content: flex-end;
 
-    h2
     p{
         margin-bottom: 10px;
     }
